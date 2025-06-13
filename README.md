@@ -34,7 +34,10 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
         return tf.keras.Model(inputs, outputs)
      ```
 ## Model Performance
+
 ![image](https://github.com/user-attachments/assets/0bfe86c1-03a9-4ae4-b516-5d2898012cda)
+Akurasi training dan validasi berhasil meningkat seiring bertambahnya epoch, dengan loss yang menurun secara signifikan. Hal ini menunjukkan bahwa model MobileNetV2 berhasil belajar dengan baik.
+
 ![image](https://github.com/user-attachments/assets/e91fb63c-c6bc-4714-91ef-c1582f2c8df4)
 
 ![image](https://github.com/user-attachments/assets/a5dbd932-c4eb-495b-80b3-30d524652799)
@@ -50,6 +53,7 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
         macro avg       0.92      0.92      0.92       336
      weighted avg       0.92      0.92      0.92       336
 
+Model berhasil mencapai akurasi keseluruhan sebesar 92%, dengan nilai precision, recall, dan f1-score yang seimbang pada ketiga kelas. Hal ini menunjukkan bahwa performa klasifikasi yang stabil dan andal.
 
 ## Requirements
 - tensorflow
