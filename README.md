@@ -61,6 +61,7 @@ Model berhasil mencapai akurasi keseluruhan sebesar 92%, dengan nilai precision,
 - matplotlib
 - seaborn
 - ipywidgets
+- scikit-learn
 
 ## Tools
 - Visual Studio Code
@@ -69,6 +70,7 @@ Model berhasil mencapai akurasi keseluruhan sebesar 92%, dengan nilai precision,
   - TensorFlow: Digunakan untuk melatih model machine learning.
   - NumPy: Digunakan untuk memanipulasi data.
   - Matplotlib and Seaborn: Digunakan untuk memvisualisasi data
+  - Scikit-learn : Digunakan untuk mengevaluasi model
   - ipywidgets and IPython: Digunakan untuk membuat widget interaktif dan meningkatkan pengalaman interaktif dalam lingkungan Python.
 
 
