@@ -35,6 +35,7 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
      ```
 ## Model Performance
 ![image](https://github.com/user-attachments/assets/0bfe86c1-03a9-4ae4-b516-5d2898012cda)
+![image](https://github.com/user-attachments/assets/e91fb63c-c6bc-4714-91ef-c1582f2c8df4)
 
 ![image](https://github.com/user-attachments/assets/a5dbd932-c4eb-495b-80b3-30d524652799)
 
