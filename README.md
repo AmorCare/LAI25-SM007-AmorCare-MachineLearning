@@ -33,4 +33,38 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
         outputs = tf.keras.layers.Dense(3, activation='softmax')(x)
         return tf.keras.Model(inputs, outputs)
      ```
+## Model Performance
+![image](https://github.com/user-attachments/assets/0bfe86c1-03a9-4ae4-b516-5d2898012cda)
+
+![image](https://github.com/user-attachments/assets/a5dbd932-c4eb-495b-80b3-30d524652799)
+
+     Classification Report:
+                   precision    recall  f1-score   support
+     
+        berminyak       0.95      0.88      0.91       112
+          jerawat       0.92      0.93      0.92       112
+           normal       0.88      0.95      0.91       112
+     
+         accuracy                           0.92       336
+        macro avg       0.92      0.92      0.92       336
+     weighted avg       0.92      0.92      0.92       336
+
+
+## Requirements
+- tensorflow
+- numpy
+- matplotlib
+- seaborn
+- ipywidgets
+
+## Tools
+- Google Colab
+- Google Drive
+- Python Libraries
+  - TensorFlow: Digunakan untuk melatih model machine learning.
+  - NumPy: Digunakan untuk memanipulasi data.
+  - Matplotlib and Seaborn: Digunakan untuk memvisualisasi data
+  - ipywidgets and IPython: Digunakan untuk membuat widget interaktif dan meningkatkan pengalaman interaktif dalam lingkungan Python.
+
+
 
