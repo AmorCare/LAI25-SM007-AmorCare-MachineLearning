@@ -1,7 +1,7 @@
 # AmorCare Machine Learning Part
 
 ## Dataset
-Data yang digunakan dibagi menjadi tiga bagian, yaitu data train, data validasi, dan data test. Jumlah seluruh data yang telah dikumpulkan sebesar 3354 data.
+Data yang digunakan dibagi menjadi tiga bagian, yaitu data train, data validasi, dan data test. Jumlah seluruh data yang telah dikumpulkan sebesar 3354 data. [Link Dataset](https://drive.google.com/drive/folders/1kfWBLaNuRVLJnB7ZHpAhvwKIFTytRAXJ?usp=drive_link)
 
 |   Jenis Kulit   | Jumlah | 
 |:---------------:|:------:|
@@ -33,4 +33,43 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
         outputs = tf.keras.layers.Dense(3, activation='softmax')(x)
         return tf.keras.Model(inputs, outputs)
      ```
+## Model Performance
+
+![image](https://github.com/user-attachments/assets/0bfe86c1-03a9-4ae4-b516-5d2898012cda)
+Akurasi training dan validasi berhasil meningkat seiring bertambahnya epoch, dengan loss yang menurun secara signifikan. Hal ini menunjukkan bahwa model MobileNetV2 berhasil belajar dengan baik.
+
+![image](https://github.com/user-attachments/assets/e91fb63c-c6bc-4714-91ef-c1582f2c8df4)
+
+![image](https://github.com/user-attachments/assets/a5dbd932-c4eb-495b-80b3-30d524652799)
+
+     Classification Report:
+                   precision    recall  f1-score   support
+     
+        berminyak       0.95      0.88      0.91       112
+          jerawat       0.92      0.93      0.92       112
+           normal       0.88      0.95      0.91       112
+     
+         accuracy                           0.92       336
+        macro avg       0.92      0.92      0.92       336
+     weighted avg       0.92      0.92      0.92       336
+
+Model berhasil mencapai akurasi keseluruhan sebesar 92%, dengan nilai precision, recall, dan f1-score yang seimbang pada ketiga kelas. Hal ini menunjukkan bahwa performa klasifikasi yang stabil dan andal.
+
+## Requirements
+- tensorflow
+- numpy
+- matplotlib
+- seaborn
+- ipywidgets
+
+## Tools
+- Visual Studio Code
+- Google Drive
+- Python Libraries
+  - TensorFlow: Digunakan untuk melatih model machine learning.
+  - NumPy: Digunakan untuk memanipulasi data.
+  - Matplotlib and Seaborn: Digunakan untuk memvisualisasi data
+  - ipywidgets and IPython: Digunakan untuk membuat widget interaktif dan meningkatkan pengalaman interaktif dalam lingkungan Python.
+
+
 
