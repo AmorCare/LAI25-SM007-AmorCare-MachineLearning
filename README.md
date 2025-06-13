@@ -58,7 +58,7 @@ Model yang dibangun menggunakan algoritma CNN dengan menerapkan metode transfer 
 - ipywidgets
 
 ## Tools
-- Google Colab
+- Visual Studio Code
 - Google Drive
 - Python Libraries
   - TensorFlow: Digunakan untuk melatih model machine learning.
