@@ -1,7 +1,7 @@
 # AmorCare Machine Learning Part
 
 ## Dataset
-Data yang digunakan dibagi menjadi tiga bagian, yaitu data train, data validasi, dan data test. Jumlah seluruh data yang telah dikumpulkan sebesar 3354 data.
+Data yang digunakan dibagi menjadi tiga bagian, yaitu data train, data validasi, dan data test. Jumlah seluruh data yang telah dikumpulkan sebesar 3354 data. [Link Dataset](https://drive.google.com/drive/folders/1kfWBLaNuRVLJnB7ZHpAhvwKIFTytRAXJ?usp=drive_link)
 
 |   Jenis Kulit   | Jumlah | 
 |:---------------:|:------:|
